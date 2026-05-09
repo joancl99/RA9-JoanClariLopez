@@ -91,3 +91,29 @@ body {
     background: #1f2937;
     color: white;
 }
+
+.boton {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 16px;
+    background: #1d4ed8;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.boton:hover {
+    background: #1e40af;
+    transform: translateY(-2px);
+}
+
+.boton-claro {
+    background: white;
+    color: #1d4ed8;
+}
+
+.boton-claro:hover {
+    background: #e0ecff;
+}
